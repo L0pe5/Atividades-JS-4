@@ -7,7 +7,6 @@ Você é um desenvolvedor contratado para criar sistemas internos de terminal pa
 
 Cada sistema é uma entrega diferente — mas todos compartilham a mesma base de lógica, variáveis, operadores e condicionais.
 
-─────────────────────────────
 ###🔹 Projeto 1 — Sistema de Cadastro de Usuário (nível: iniciante)
 🎯 Objetivo:
 ### Treinar variáveis, tipos de dados, operadores de comparação e condicionais.
@@ -27,7 +26,6 @@ Crie um script cadastro.js que:
 💡 Extra:
 Calcule quantos anos faltam para a aposentadoria (ex: 60 - idade).
 
-─────────────────────────────
 ###🔹 Projeto 2 — Calculadora Financeira (nível: intermediário)
 🎯 Objetivo:
 Consolidar operadores, condicionais e manipulação de números.
@@ -47,7 +45,6 @@ Crie financas.js que simule o cálculo de juros simples e compostos.
 💡 Extra:
 Crie um bônus: se o rendimento ultrapassar R$ 1000, exiba "Excelente investimento!".
 
-─────────────────────────────
 ###🔹 Projeto 3 — Central de Login (nível: intermediário)
 🎯 Objetivo:
 Usar condicionais aninhadas e operadores lógicos.
@@ -68,7 +65,6 @@ Crie login.js que simula o sistema de autenticação da empresa:
 💡 Extra:
 Use toLowerCase() para ignorar maiúsculas/minúsculas no login.
 
-─────────────────────────────
 ###🔹 Projeto 4 — Gerador de Relatórios de Estoque (nível: intermediário-avançado)
 🎯 Objetivo:
 Combinar lógica, arrays, loops e condicionais com Node.
@@ -84,7 +80,6 @@ Crie estoque.js para uma loja que controla seus produtos.
 💡 Extra:
 Permita filtrar produtos com quantidade < 3 (alerta de reposição).
 
-─────────────────────────────
 ###🔹 Projeto 5 — Assistente de Terminal “TechBot” (nível: avançado)
 🎯 Objetivo:
 Integrar tudo — lógica, operadores, condicionais e fluxo de controle no Node.js.
