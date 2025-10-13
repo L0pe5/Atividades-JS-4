@@ -1,0 +1,71 @@
+###🔹 Projeto 1 — Sistema de Cadastro de Usuário (nível: iniciante)
+
+const prompt = require('prompt-sync')();
+
+let nome = prompt("Qual o seu nome? ");
+let idade = parseInt(prompt("Quala sua idade? "));
+let estaEmpregado = prompt("Está empregado? ").toLowerCase() === "sim";
+let idadeRestanteAo60 = 60 - idade;
+
+if (estaEmpregado === true) {
+    console.log(`Bem vindo ${nome}! Você tem ${idade} anos e esta empregado!`)
+}
+else {
+    console.log(`Bem vindo ${nome}! Você tem ${idade} anos e esta desempregado, continue persistindo!`)
+}
+
+if (idade >= 60) {
+    console.log(`Está com ${idade} anos e está preparado para a aposentadoria!`)
+}
+else {
+    console.log(`Ainda são necessários ${idadeRestanteAo60} anos para você completar 60 anos de idade.`)
+}
+
+###🔹 Projeto 2 — Calculadora Financeira (nível: intermediário)
+
+const prompt = require('prompt-sync')();
+
+let = valorInicial = parseFloat(prompt("Digite o valor inicial: "));
+let = taxa = parseFloat(prompt("Digite a taxa em porcentagem: ")) / 100;
+let = tempo = parseFloat(prompt("Digite o tempo em meses: "));
+
+const jurosSimples = valorInicial * (1 + taxa * tempo);
+const jurosComposto = valorInicial * (1 + taxa) ** tempo;
+
+console.log(`Juros simples avaliado em: ${jurosSimples.toFixed(2)}`);
+console.log(`Juros Composto avaliado em: ${jurosComposto.toFixed(2)}`);
+
+if (jurosSimples && jurosComposto >= 1000) {
+    console.log("seu rendimento ultrapassou R$1000.00, excelente investimento!")
+}
+
+###🔹 Projeto 3 — Central de Login (nível: intermediário)
+
+const prompt = require('prompt-sync')();
+
+const usuarios = [
+    { nome: "admin", senha: "1234", cargo: "Gerente" },
+    { nome: "joao", senha: "abcd", cargo: "Funcionário" },
+];
+
+let inserirNome = prompt("Digite seu nome: ").trim();
+let inserirSenha = prompt("Digite sua senha: ", { echo: '*' }).trim();
+
+const usuario = usuarios.find(u => u.nome === inserirNome && u.senha === inserirSenha)
+
+if (usuario) {
+    if (usuario.cargo === "Gerente") {
+        console.log("Acesso total liberado")
+    }
+    else {
+        console.log("Acesso restrito")
+    }
+}
+else {
+    console.log("Acesso negado")
+}
+
+###🔹 Projeto 4 — Gerador de Relatórios de Estoque (nível: intermediário-avançado)
+
+
+
