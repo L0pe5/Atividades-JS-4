@@ -1,6 +1,6 @@
 # Atividades-JS-4
 
-# titulo = "Treinamento Integrado de Lógica + Node.js"
+# "Treinamento Integrado de Lógica + Node.js"
 
 📘 Contexto Geral:
 Você é um desenvolvedor contratado para criar sistemas internos de terminal para uma empresa fictícia chamada TechLabs, que quer automatizar tarefas simples no ambiente Node.js.
