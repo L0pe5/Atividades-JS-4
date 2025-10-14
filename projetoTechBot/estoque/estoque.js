@@ -1,5 +1,7 @@
 const prompt = require("prompt-sync")();
 
+// array de objetos para classificar o nome, preço e quantidade dos produtos em estoque
+
 const produtos = [
     { nome: "Gabinete:", preco: 120, quantidade: 7 },
     { nome: "Placa mãe:", preco: 340, quantidade: 5 },
@@ -17,6 +19,7 @@ function calcularValorTotalEstoque() {
 }
 
 // Produto com o maior valor
+
 function produtoMaiorValor() {
     const produtoMaisCaro = produtos.reduce((maisCaro, atual) => {
         const valorMaisCaro = maisCaro.preco * maisCaro.quantidade;
@@ -37,6 +40,8 @@ function relatorioProdutos() {
 function filtrarProdutos() {
     return produtos.filter(p => p.quantidade < 3).map(p => `${p.nome} x ${p.quantidade} unidades`).join("\n");
 }
+
+// exportação das funções para o relatorios.js para servir ao techbot.js
 
 module.exports = {
     calcularValorTotalEstoque,
