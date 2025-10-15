@@ -1,5 +1,28 @@
 # Atividades-JS-4
 
+Projeto 5 — Assistente de Terminal "TechBot"
+
+Arquivos adicionados:
+
+- `techbot.js` — arquivo principal do CLI.
+- `lib/commands.js` — módulo com funções chamadas pelo menu.
+- `package.json` — metadados e comando de start.
+
+Como usar (PowerShell):
+
+```powershell
+# instalar (opcional) e executar
+npm install
+node techbot.js
+
+# ou, após tornar o arquivo executável, usar o bin
+npm link
+techbot
+```
+
+Menu: escolha uma opção digitando o número e pressionando Enter. O programa roda em loop até escolher 0 (Sair).
+
+
 # "Treinamento Integrado de Lógica + Node.js"
 
 📘 Contexto Geral:
